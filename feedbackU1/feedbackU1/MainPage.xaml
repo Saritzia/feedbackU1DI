@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="feedbackU1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Rellene el formulario para hacerse cliente"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center"
+                x:Name="FormLabel"/>
+
+            <Entry Placeholder="Nombre"
+                  VerticalTextAlignment="Start"
+                  x:Name="NameText"
+                  FontFamily="Arial"
+                  TextColor="#000000"
+                  TextChanged="nameText_TextChanged"/>
+
+            <Entry Placeholder="NIF"
+                  VerticalTextAlignment="Start"
+                  x:Name="NIFText"
+                  FontFamily="Arial"
+                  TextColor="#000000"/>
+
+            <Entry Placeholder="Dirección completa"
+                  VerticalTextAlignment="Start"
+                  x:Name="StreetText"
+                  FontFamily="Arial"
+                  TextColor="#000000"/>
+
+            <Label
+                Text="Cliente habitual"
+                FontSize="16"
+                HorizontalOptions="Center"
+                AutomationId="ClientLabel"
+                x:Name="clientLabel" />
+
+            <Switch
+                x:Name="ClientSwitch"
+                IsToggled="false"/>
+
+            <Picker x:Name="IVAPicker"
+                     Title="Seleccione IVA">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>7</x:String>
+                        <x:String>13</x:String>
+                        <x:String>21</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Picker x:Name="CountryPicker"
+                     Title="Seleccione país">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>España</x:String>
+                        <x:String>Portugal</x:String>
+                        <x:String>Francia</x:String>
+                        <x:String>Italia</x:String>
+                        <x:String>USA</x:String>
+                        <x:String>Suiza</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Registrarse"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{BAFD010A-A1BC-47CC-9841-B877987DABE2}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A657D1E8-FF1E-42AD-B1D7-8B74280F7574" />
+  <MonoDevelop.Ide.ItemProperties.feedbackU1 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A657D1E8-FF1E-42AD-B1D7-8B74280F7574" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="feedbackU1/MainPage.xaml.cs">
+    <Files>
+      <File FileName="feedbackU1/MainPage.xaml.cs" Line="28" Column="21" />
+      <File FileName="feedbackU1/MainPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="feedbackU1" expanded="True">
+            <Node name="feedbackU1" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
